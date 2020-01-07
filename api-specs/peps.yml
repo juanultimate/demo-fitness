@@ -1,0 +1,14 @@
+openapi: 3.0.0
+info:
+  title: fitness-api
+  version: ‘1.0’
+  description: This API is intended to manage test features.
+  contact:
+    name: Game of Drones team
+    url: 'https://github.com/orgs/juanultimaye/teams/god-team'
+servers:
+  - url: 'foo.com'
+paths:
+  /health:
+    get:
+      summary: GET API status
